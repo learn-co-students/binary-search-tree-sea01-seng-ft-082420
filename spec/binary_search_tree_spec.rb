@@ -47,6 +47,8 @@ describe 'Binary Search Tree' do
     all_data = []
     bst.each { |data| all_data << data }
     all_data
+    # bst.inorder_traversal(bst, all_data)
+    # all_data
   end
 
   it 'can iterate' do
